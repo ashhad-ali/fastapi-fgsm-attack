@@ -1,0 +1,13 @@
+# Ignore the screenshots folder
+screenshots/
+
+# Ignore Python temporary files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
