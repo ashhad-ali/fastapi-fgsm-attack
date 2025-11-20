@@ -1,6 +1,9 @@
 # Ignore the screenshots folder
 screenshots/
 
+# Ignore the dataset folder
+data/
+
 # Ignore Python temporary files
 __pycache__/
 *.pyc
