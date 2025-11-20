@@ -34,7 +34,7 @@ export default function Home() {
 
     try {
       // We use 127.0.0.1 instead of localhost to avoid common network glitches
-      const response = await fetch('http://127.0.0.1:8000/attack', {
+      const response = await fetch('http://51.20.12.114/attack', {
         method: 'POST',
         body: formData,
       });
