@@ -1,16 +1,21 @@
-# Ignore the screenshots folder
+# --- Existing Python Ignores ---
 screenshots/
-
-# Ignore the dataset folder
 data/
-
-# Ignore Python temporary files
 __pycache__/
 *.pyc
-
-# Ignore the virtual environment folder
 .venv/
-
-# Ignore OS generated files
 .DS_Store
 Thumbs.db
+
+# --- NEW: Frontend / Node.js Ignores ---
+# The massive dependencies folder
+node_modules/
+*/node_modules/
+
+# Next.js build output
+.next/
+*/.next/
+
+# Environment variables (security risk if pushed)
+.env
+.env.local

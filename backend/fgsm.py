@@ -48,7 +48,7 @@ class FGSMAttack:
         adversarial_image = image.data + epsilon * sign_data_grad
 
         # 6. Clip the adversarial image to maintain valid pixel range [0, 1]
-        adversarial_image = torch.clamp(adversarial_image, 0, 1)
+        # adversarial_image = torch.clamp(adversarial_image, 0, 1)
 
         return adversarial_image
 
